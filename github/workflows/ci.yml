@@ -1,0 +1,16 @@
+name : "cicd workflow
+on:
+  push:
+    branches:
+      -main   
+
+jobs:
+  build-and-test:
+  runs-on: ubuntu-latest
+  steps:
+  - name: setup node.js
+    uses: actions/setup-node@v2
+    with:
+     node-version: '14'
+   
+   
