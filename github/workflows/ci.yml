@@ -2,8 +2,8 @@ name : "cicd workflow"
 on:
   push:
     branches:
-      -main
-      -master   
+      - main
+      - master   
 
 jobs:
   build-and-test:
